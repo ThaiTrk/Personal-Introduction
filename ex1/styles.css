@@ -1,0 +1,445 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1a29;
+    color: #B8B5F4;
+}
+
+header {
+    padding: 8px;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+header nav ul li :hover {
+    color: hotpink;
+}
+
+home {
+    text-align: center;
+    padding: 50px;
+}
+
+.intro-container {
+    background-color: #252136;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.intro-text h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    opacity: 60%;
+    margin-top: 30px;
+}
+
+button {
+    background-color:hotpink;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+aboutme {
+    padding: 50px;
+}
+
+.aboutme-container {
+    background-color: #252136;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+contactme {
+    padding: 50px;
+    text-align: center;
+}
+
+.contactme-container {
+    background-color: #252136;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-discord {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-color: darkorchid;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.contact-info-discord:hover {
+    transform: scale(1.05); 
+    border-color:darkblue;
+}
+
+.contact-info-discord-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.discord-account {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.discord-account a {
+    text-decoration: none;
+    color:darkorchid;
+    font-weight: bold;
+}
+
+.contact-info-facebook {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-color:blue;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.contact-info-facebook:hover {
+    transform: scale(1.05); 
+    border-color:darkblue;
+}
+
+.contact-info-facebook-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.facebook-account {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.facebook-account a {
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+}
+
+.contact-info-instagram {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-color:darkorange;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.contact-info-instagram:hover {
+    transform: scale(1.05); 
+    border-color:darkblue;
+}
+
+.contact-info-instagram-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.instagram-account {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.instagram-account a {
+    text-decoration: none;
+    color: darkorange;
+    font-weight: bold;
+}
+
+
+.contact-info-github {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.contact-info-github:hover {
+    transform: scale(1.05); 
+    border-color:darkblue;
+}
+
+.contact-info-github-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.github-account {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.github-account a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}
+
+
+.devices-container {
+    background-color: #252136;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.delllatitude7310 a {
+    font-weight: bold;
+    margin-left: -9px;
+}
+
+.delllatitude7310 ul {
+    margin-left: 85px;
+    margin-top: 3px;
+
+}
+
+.delllatitude7310 {
+    margin-top: 25px;
+    border: 2px solid;
+    border-color:#333;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.delllatitude7310-icon {
+    float: left;
+    font-size: 35px;
+    margin-left:35px;
+    margin-top: 65px;
+}
+
+.macbookairm1 a {
+    font-weight: bold;
+    margin-left: -9px;
+}
+
+.macbookairm1 ul {
+    margin-left: 85px;
+    margin-top: 3px;
+
+}
+
+.macbookairm1 {
+    margin-top: 25px;
+    border: 2px solid;
+    border-color:#333;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.macbookairm1-icon {
+    float: left;
+    font-size: 35px;
+    margin-left:35px;
+    margin-top: 65px;
+}
+
+.iphone6 a {
+    font-weight: bold;
+    margin-left: -9px;
+}
+
+.iphone6 ul {
+    margin-left: 85px;
+    margin-top: 3px;
+}
+
+.iphone6 {
+    margin-top: 25px;
+    border: 2px solid;
+    border-color:#333;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.iphone6-icon {
+    float: left;
+    font-size: 45px;
+    margin-left:45px;
+    margin-top: 58px;
+}
+
+.iphonexr a {
+    font-weight: bold;
+    margin-left: -9px;
+}
+
+.iphonexr ul {
+    margin-left: 85px;
+    margin-top: 3px;
+}
+
+.iphonexr {
+    margin-top: 25px;
+    border: 2px solid;
+    border-color:#333;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.iphonexr-icon {
+    float: left;
+    font-size: 45px;
+    margin-left:45px;
+    margin-top: 58px;
+}
+
+.iphone12pro a {
+    font-weight: bold;
+    margin-left: -9px;
+}
+
+.iphone12pro ul {
+    margin-left: 85px;
+    margin-top: 3px;
+}
+
+.iphone12pro {
+    margin-top: 25px;
+    border: 2px solid;
+    border-color:#333;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.iphone12pro-icon {
+    float: left;
+    font-size: 45px;
+    margin-left:45px;
+    margin-top: 58px;
+}
+
+.airpodpro2 a {
+    font-weight: bold;
+    margin-left: -9px;
+}
+
+.airpodpro2 ul {
+    margin-left: 85px;
+    margin-top: 5px;
+}
+
+.airpodpro2 {
+    margin-top: 25px;
+    border: 2px solid;
+    border-color:#333;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.airpodpro2-icon {
+    float: left;
+    font-size: 35px;
+    margin-left:40px;
+    margin-top: 45px;
+}
+
+.delllatitude7310:hover {
+    transform: scale(1.05); 
+}
+
+.macbookairm1:hover {
+    transform: scale(1.05); 
+}
+
+.iphone6:hover {
+    transform: scale(1.05); 
+}
+
+.iphonexr:hover {
+    transform: scale(1.05); 
+}
+
+.iphone12pro:hover {
+    transform: scale(1.05); 
+}
+
+.airpodpro2:hover {
+    transform: scale(1.05); 
+}
